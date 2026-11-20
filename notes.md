@@ -163,3 +163,67 @@ the only item visible on either front page was Bolivia's church restoration.
 - Former Sen. Ben Sasse's memoir on surviving cancer, co-written with his daughter, is set for March 9. (AP — North America)
 - From flipping its pages to sitting on it: the phone book infiltrated American life — then vanished. (AP — North America)
 - Get rich quick, or lose it all: the shared fun and frustration of Monopoly's capitalist world. (AP — North America)
+
+## Art index
+
+Per-story art cues for the renderer. `icon` is one of the drawable kinds in the
+vocabulary below, `num` is the headline figure to stamp on the art (`—` when the
+story has none), and `chart` names the plot shape when the story is quantitative
+(`—` otherwise). Ids match the numbering above: L = main story, C = card story,
+Q = quick-scan item, in listing order.
+
+Icon vocabulary: `bridge` `blast` `chart_down` `chart_up` `candles` `vaccine`
+`flag` `treaty` `mountain` `warning` `cell` `chain` `cricket` `ballot`
+`frame` `exam` `server` `ruins` `church` `rooster` `talks` `hockey` `book`
+`film` `siege` `plume` `hippo` `game` `rocket` `globe` `gavel` `plane`
+`baseball` `lock` `scales` `crossing` `turntable` `plate` `coin` `soda`
+`crowd` `runner` `phone` `dice`
+
+| id | icon | num | chart | cue |
+|---|---|---|---|---|
+| L1 | bridge + blast | 3 bridges | — | Kyiv river crossings struck |
+| L2 | chart_down | −1,100 | falling | Dow, longest losing streak since 2024 |
+| L3 | candles | 600 | — | SA femicide tally, three months |
+| C1 | vaccine | 26 years | — | US measles-free status lost |
+| C2 | flag + treaty | — | — | UK–EU youth mobility agreement |
+| C3 | mountain + warning | — | — | Fuji advisory and reward |
+| C4 | cell | — | — | Nigeria ends jail terms |
+| C5 | cricket | — | — | Cummins keeps the captaincy |
+| C6 | ballot | midterms | — | Musk distances from MAGA |
+| C7 | frame | $4.8M | — | Kahlo sale halted; O'Keeffe fetches $4.8M |
+| C8 | exam | 111 | — | South Korea exam cheats caught |
+| C9 | server | — | — | Canada embraces AI data centres |
+| C10 | ruins | — | — | Mariupol under occupation |
+| C11 | church | — | — | Bolivia's Andean Sistine Chapel restored |
+| C12 | rooster | — | — | Maine metal rooster statues |
+| Q1 | talks | — | — | Europe ready for Russia talks |
+| Q2 | hockey | — | — | Russia barred from junior worlds |
+| Q3 | book | — | — | Roman library opens to public |
+| Q4 | film | — | — | French home movies restored |
+| Q5 | ballot | — | — | Border poll criteria talks |
+| Q6 | siege | — | — | Life inside besieged Taiz |
+| Q7 | plume | — | — | Toxic plume warning |
+| Q8 | hippo | — | — | Fiona the hippo dies |
+| Q9 | game | — | — | GTA VI cast revealed |
+| Q10 | rocket | 1 light-day | — | Voyager 1 phones home |
+| Q11 | globe | 2035 | rising | Islam to pass Christianity |
+| Q12 | gavel | — | — | EPA grants cancellation sought |
+| Q13 | plane | $50B | — | Air travel system funding |
+| Q14 | baseball | — | — | Pete Rose pardoned |
+| Q15 | lock | — | — | Chase customer data leak |
+| Q16 | scales | — | — | Utah charges Kalshi |
+| Q17 | crossing | — | — | World's largest wildlife crossing |
+| Q18 | turntable | — | — | Guadalupe pilgrimage street DJs |
+| Q19 | plate | — | — | Greenland's remote food scene |
+| Q20 | chart_up | record | rising | Anthropic's IPO debut |
+| Q21 | coin | $1.3m | — | Indian lottery winner |
+| Q22 | soda | — | — | Cumin sodas challenge cola |
+| Q23 | cell | 5 years | — | Indonesian daycare principal jailed |
+| Q24 | crowd | — | — | Photographer at the Kaaba |
+| Q25 | chart_up | — | rising | IEA on the Iran war energy shock |
+| Q26 | coin | — | — | Africa demands more climate money |
+| Q27 | runner | 70+ marathons | — | Pregnant runner's marathon record |
+| Q28 | book | Mar 9 | — | Ben Sasse cancer memoir |
+| Q29 | phone | — | — | The vanished phone book |
+| Q30 | dice | — | — | Monopoly's capitalist world |
+
